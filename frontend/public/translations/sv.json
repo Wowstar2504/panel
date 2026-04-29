@@ -272,7 +272,7 @@
           "title": "Servertillstånd i konflikt",
           "contentSuspended": "Den här servern är pausad och kan inte nås.",
           "contentNodeMaintenance": "Den här servern är på en nod som för närvarande är under underhåll och kan inte nås.",
-          "contentTransferring": "Den här servern är för närvarande being transferred and cannot be accessed until the transfer is complete.",
+          "contentTransferring": "Den här servern överförs för närvarande och kan inte nås förrän överföringen är klar.",
           "contentInstallFailed": "Den här servern misslyckades att installeras och kan inte nås tills den har bekräftats.",
           "contentInstalling": "Den här servern är för närvarande installation och kan inte nås tills den är slutförd.",
           "contentRestoringBackup": "Den här servern är för närvarande återställning från en backup och kan inte nås tills den är slutförd.",
@@ -483,8 +483,8 @@
           }
         },
         "eggRepositories": {
-          "title": "Egg Repositories",
-          "description": "Dessa är källförråden för dina ägg. Du kan ändra dessa repositories när som helst.",
+          "title": "Egg Förråd",
+          "description": "Dessa är källförråden för dina ägg. Du kan ändra dessa Förråd när som helst.",
           "repositories": {
             "pterodactylGame": {
               "title": "Pterodactyl Spel Egg",
@@ -492,7 +492,7 @@
             },
             "pterodactylApplication": {
               "title": "Pterodactyl Applikations Egg",
-              "description": "Ägg för applikationer som Grafana, Meilisearch och various databaser."
+              "description": "Ägg för applikationer som Grafana, Meilisearch och flertalet databaser."
             },
             "pterodactylGeneral": {
               "title": "Pterodactyl Generella Egg",
@@ -534,8 +534,8 @@
               "subtitle": "Panelinställningar och konfigurerade preferenser"
             },
             "eggRepositories": {
-              "title": "Egg Repositories",
-              "subtitle": "{count} repositories"
+              "title": "Egg Förråd",
+              "subtitle": "{count} förråd"
             },
             "location": "Plats",
             "node": "Node",
@@ -566,7 +566,7 @@
               "dismissed": "Du avvisade eller interagerade inte med passnyckeln. Den använda nyckeln kan också inte vara registrerad.",
               "invalidState": "Denna passnyckel är inte tillgänglig eller redan registrerad.",
               "notSupportedType": "Din webbläsare eller enhet stöder inte denna typ av passnyckel.",
-              "securityError": "Lösenord kan endast användas via HTTPS och med en giltig domän.",
+              "securityError": "Passnycklar kan endast användas via HTTPS och med en giltig domän.",
               "authenticatorError": "Något gick fel med autentiseraren.",
               "constraintError": "Autentiseraren kunde inte uppfylla de obligatoriska begränsningarna."
             }
@@ -1143,7 +1143,7 @@
               "noCommands": "Inga kommandon hittades.",
               "copyButton": "Kopiera kommando",
               "sendButton": "Skicka kommando",
-              "commandSent": "Kommando skickat successfully."
+              "commandSent": "Kommando skickat."
             }
           },
           "feature": {
@@ -1253,7 +1253,7 @@
             "clickOnce": "Klicka en gång för att öppna filen eller mappen",
             "preferPhysicalSize": "Visa fysisk storlek istället för logisk storlek",
             "editorMinimap": "Visa filminikarta",
-            "editorLineOverflow": "Wrap Line Overflow",
+            "editorLineOverflow": "Överfylld radbrytning",
             "imageViewerSmoothing": "Jämna ut bilden (antialiasing)"
           },
           "toast": {
